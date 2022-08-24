@@ -64,7 +64,7 @@
 }
 .sec5-element1-img {
     border-radius: 30px;
-    background-image: url('./Images/about-team3.jpg');
+    background-image: url('../Images/about-team3.jpg');
     height: 300px;
     width: 35%;
     background-size: cover;
@@ -74,7 +74,7 @@
 }
 .sec5-element2-img {
     border-radius: 30px;
-    background-image: url('./Images/about-team1.webp');
+    background-image: url('../Images/about-team1.webp');
     height: 300px;
     width: 35%;
     background-size: cover;
@@ -84,7 +84,7 @@
 }
 .sec5-element3-img {
     border-radius: 30px;
-    background-image: url('./Images/about-team6.jpg');
+    background-image: url('../Images/about-team6.jpg');
     height: 300px;
     width: 35%;
     background-size: cover;
@@ -94,7 +94,7 @@
 }
 .sec5-element4-img {
     border-radius: 30px;
-    background-image: url('./Images/about-team5.webp');
+    background-image: url('../Images/about-team5.webp');
     height: 300px;
     width: 35%;
     background-size: cover;
