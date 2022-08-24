@@ -97,7 +97,7 @@
                     <option value="Hindhu">Hindu</option>
                 </select>
                 <div id="btn">
-                    <button id="submit-btn">Next</button>
+                    <button id="submit-btn" class="registerbtnone">Next</button>
                 </div>
                 <h5>Already a Member?<a id="login" href="#">Login</a></h5>
             </form>
@@ -117,7 +117,7 @@
                     <input class="dob apibirthyear" id="a" type="number" placeholder="Year">
                 </div>
                 <h6>Gender</h6>
-                <select class="profile" name="profil-for">
+                <select class="profile apiprofilegender" name="profil-for">
                     <option selected disabled>Select</option>
                     <option value="male">Male</option>
                     <option value="female">Female</option>
@@ -717,9 +717,9 @@
     <!-- Section-1 -->
     <div class="head-content">
         <div class="header-image">
-            <img src="./Images/Ethnic-Punjabi-wedding-couple-photography.jpg" alt="">
+            <img src="./Images/Ethnic-Punjabi-wedding-couple-photography.jpg" alt="" id="apibannerimg">
         </div>
-        <h1 class="heading"><span class="heading-span">Exclusively for</span><br>Sindhi Community</h1>
+        <h1 class="heading"><span class="heading-span" id="apidescription">Exclusively for</span><br>Sindhi Community</h1>
         <div class="input-form">
             <form action="" method="" class="details-form">
                 <div class="form-block" id="gender-block">
