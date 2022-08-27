@@ -271,203 +271,186 @@ html,body{
 
 
 @media (min-width: 320px) and (max-width:550px) {
-    .navbar {
-        width: 100%;
-        height: 50px;
+
+    .slick-div .slick-cards {
+        height: auto;
     }
-    .navbar .profile #circle{
-        display: none;
+
+    .slick-cards .accpt-btn, .slick-cards .declin-btn {
+        padding: 1em 0.5em ;
+        font-size: 8px;
     }
-    .navbar .nav-links li {
-        display: none;
+
+    .slick-cards .top {
+        height: 100px;
     }
-    .profile .profile-icon {
-        width: 30px;
-        height: 30px;
-        margin-right: 1rem;
+
+    .slick-cards p {
+        font-size: 2vw;
     }
-    .profile .profile-icon img {
-        height: 20px;
+
+    .slick-cards h3 {
+        font-size: 2.5vw;
     }
-    .navbar #menu {
-        display: initial;
-        color: #fff;
-        margin-left: 15px;
-        font-size: 30px;
+
+    #option-div .elems h2 {
+        font-size: 3vw;
     }
-    .navbar .logo {
-        margin-left: 1rem;
-        width: 25%;
+
+    #option-div .elems i {
+        font-size: 3vw;
     }
-    .logo img {
-        width: 100%;
-        height: 100%;
+
+    #option-div .drop-list {
+        width: 150px;
+        left: 15%;
+        height: 150px;
     }
-    .logo-img img {
-        width: 100px;
+
+    #option-div #drop-2 {
+        left: 55%;
     }
-    .footer-links {
-        width: 100%;
-        justify-content: space-around;
-    }
-    .foot-links-div {
-        width: 25%;
-    }
-    .links-title {
-        padding: 0;
-        padding-bottom: 0.7rem;
+
+    .drop-list h5 {
         font-size: 12px;
     }
-    .foot-links {
-        padding: 1rem 0;
+
+    .slick-dots {
+        bottom: -30px;
     }
-    .foot-links li {
-        padding: 0rem;
+
+    .interests h2 {
+        font-size: 4vw;
     }
-    .foot-links>li>a {
-        font-size: 10px;
+
+    #msg-popup {
+        right: -150%;
     }
-    .social-links .social-title {
-        font-size: 12px;
+
+    #msg-popup #msg-box {
+        width: 400px;
+        height: auto;
+        position: initial;
     }
-    .social-links .social-icons {
-        padding: 0;
+
+    #msg-box #sec-2 {
+        flex-direction: column;
     }
-    .social-icons>img {
-        padding: 1rem 0;
-        width: 50px;
-        height: 50px;
+
+    #sec-2 #sec-2-lft {
+        width: 100%;
     }
-    .footer .footer-end {
-        font-size: 10px;
-    }
-    .footer-end .terms-condtns {
-        padding-right: 1rem;
-    }
-    .footer-end .privacy-policy {
-        padding: 0 1rem;
-    }
-    .footer-end .contact-us {
-        padding-left: 1rem;
+
+    #sec-2 #sec-2-rgt {
+        width: 100%;
     }
 }
 @media (min-width: 551px) and (max-width: 768px) {
-    .navbar {
-        width: 100%;
-        height: 50px;
-    }
-    .navbar .profile #circle{
-        display: none;
+
+    .slick-div .slick-cards {
+        height: auto;
     }
 
-    .navbar .nav-links li {
-        display: none;
+    .slick-cards .accpt-btn, .slick-cards .declin-btn {
+        padding: 1em 0.5em ;
+        font-size: 8px;
     }
 
-    .profile .profile-icon {
-        width: 30px;
-        height: 30px;
-        margin-right: 1rem;
-    }
-    .profile .profile-icon img {
-        height: 20px;
+    .slick-cards .top {
+        height: 100px;
     }
 
-    .navbar #menu {
-        display: initial;
-        color: #fff;
-        margin-left: 15px;
-        font-size: 30px;
-    }
-    .navbar .logo {
-        width: 20%;
-        margin-left: 1rem;
+    .slick-cards p {
+        font-size: 2vw;
     }
 
-    .logo img {
-        width: 100%;
-        height: 100%;
+    .slick-cards h3 {
+        font-size: 2.5vw;
     }
-    .logo-img img {
-        width: 100px;
+
+    #option-div .elems h2 {
+        font-size: 3vw;
     }
-    .footer-links {
-        width: 100%;
-        justify-content: space-around;
+
+    #option-div .elems i {
+        font-size: 3vw;
     }
-    .foot-links-div {
-        width: 25%;
+
+    #option-div .drop-list {
+        width: 150px;
+        left: 15%;
+        height: 150px;
     }
-    .links-title {
-        padding: 0;
-        padding-bottom: 0.7rem;
-        font-size: 14px;
+
+    #option-div #drop-2 {
+        left: 55%;
     }
-    .foot-links {
-        padding: 1rem 0;
+
+    .drop-list h5 {
+        font-size: 13px;
     }
-    .foot-links li {
-        padding: 0rem;
+
+    .slick-dots {
+        bottom: -30px;
     }
-    .foot-links>li>a {
-        font-size: 12px;
+
+    .interests h2 {
+        font-size: 4vw;
     }
-    .social-links .social-title {
-        font-size: 14px;
-    }
-    .social-links .social-icons {
-        padding: 0;
-    }
-    .social-icons>img {
-        padding: 1rem 0;
-        width: 50px;
-        height: 50px;
-    }
-    .footer .footer-end {
-        font-size: 12px;
-        padding: .5rem 0;
-    }
-    .footer-end .terms-condtns {
-    padding-right: 1rem;
-    }
-    .footer-end .privacy-policy {
-    padding: 0 1rem;
-    }
-    .footer-end .contact-us {
-    padding-left: 1rem;
-    }
+
+    #msg-popup #msg-box {
+        width: 650px;
+    } 
 }
 @media (min-width: 769px) and (max-width: 1024px) {
-    .navbar {
-        width: 100%;
-        height: 50px;
+    .slick-div .slick-cards {
+        height: auto;
     }
-    .navbar .profile #circle{
-        display: none;
+
+    .slick-cards .accpt-btn, .slick-cards .declin-btn {
+        padding: 1em 0.5em ;
+        font-size: 8px;
     }
-    .navbar .nav-links li {
-        display: none;
+
+    .slick-cards .top {
+        height: 100px;
     }
-    .profile .profile-icon {
-        width: 30px;
-        height: 30px;
-        margin-right: 1rem;
+
+    .slick-cards p {
+        font-size: 2vw;
     }
-    .profile .profile-icon img {
-        height: 20px;
+
+    .slick-cards h3 {
+        font-size: 2.5vw;
     }
-    .navbar #menu {
-        display: initial;
-        color: #fff;
-        margin-left: 15px;
-        font-size: 30px;
+
+    #option-div .elems h2 {
+        font-size: 3vw;
     }
-    .navbar .logo {
-        width: 15%;
-        margin-left: 1rem;
+
+    #option-div .elems i {
+        font-size: 3vw;
     }
-    .logo img {
-        width: 100%;
-        height: 100%;
+
+    #option-div .drop-list {
+        width: 150px;
+        left: 15%;
+        height: 150px;
+    }
+
+    #option-div #drop-2 {
+        left: 55%;
+    }
+
+    .drop-list h5 {
+        font-size: 13px;
+    }
+
+    .slick-dots {
+        bottom: -30px;
+    }
+
+    .interests h2 {
+        font-size: 4vw;
     }
 }
